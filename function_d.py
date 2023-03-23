@@ -1,9 +1,8 @@
+
+
 def max_value(numbers):
-    """ This function returns the largest number
-        in the list.
-    """
-    "we're learning how to collab and use push pull"
-    pass
+    numbers.sort()
+    return numbers[-1]
 
 
 if __name__ == "__main__":
